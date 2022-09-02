@@ -8,7 +8,9 @@ using static ConsoleApp1.Provincias;
 namespace ConsoleApp1 {
     class Program {
         static void Main(string[] args) {
-            /////////// PUNTO 2)
+            ///////////////////////////////
+            /////////// PUNTO 2) //////////
+            ///////////////////////////////
             // PROBLEMA 1
             try {
                 Console.WriteLine("Ingrese un número para encontrar su cuadrado:");
@@ -58,6 +60,9 @@ namespace ConsoleApp1 {
             } catch (Exception e) {
                 Console.WriteLine("Error: " + e.Message);
             }
+            ///////////////////////////////
+            /////////// PUNTO 3) //////////
+            ///////////////////////////////
 
         }
 
